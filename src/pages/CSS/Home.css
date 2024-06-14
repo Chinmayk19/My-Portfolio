@@ -330,7 +330,7 @@
     }
     .skills-container{
       justify-content: center;
-      gap: 6px;
+      gap:10px;
     }
     .skills-info{
       text-align: center;
@@ -348,9 +348,13 @@
       width: 250px;
       height: 250px;
     }
+    .skills-container{
+      gap:6px;
+      height: 115px;
+    }
     .skills{
-      width: 31%;
-      padding: 4px;
+      width: 32%;
+      padding: 5px;
     }
     .contact-details{
       flex-direction: column;
