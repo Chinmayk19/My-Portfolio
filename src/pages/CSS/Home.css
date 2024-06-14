@@ -282,6 +282,10 @@
       padding: 0%;
       margin-bottom: 10px;
       height: 600px;
+      gap: 10px;
+    }
+    #Myinfo-container{
+      flex-grow: 0;
     }
     #profilephoto{
       flex-grow: 0;
