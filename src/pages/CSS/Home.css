@@ -102,12 +102,12 @@
     border: 1px solid black;
     /* border-radius: 50%; Starting value */
     border-top-left-radius: 70%;
-    border-bottom-left-radius: 50%;
-    border-top-right-radius: 40%;
-    border-bottom-right-radius: 40%;
-    animation: changeBorderRadius 2s infinite alternate ease-in-out;
+    border-bottom-left-radius: 70%;
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 70%;
+    /* animation: changeBorderRadius 2s infinite alternate ease-in-out; */
   }
-  
+/*   
   @keyframes changeBorderRadius {
     0% {
      border-top-left-radius: 70%;
@@ -121,7 +121,7 @@
       border-top-right-radius: 70%;
       border-bottom-right-radius: 60%;
     }
-  }
+  } */
   /* About Me */
   #About{
     display: flex;
