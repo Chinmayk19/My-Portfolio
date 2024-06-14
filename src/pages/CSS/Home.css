@@ -334,6 +334,9 @@
     .skills-info{
       text-align: center;
     }
+    .skills p{
+      font-size: 12px;
+    }
     #contact::before{
       display: none;
     }
