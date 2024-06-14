@@ -119,7 +119,7 @@ const Home = () => {
       </section>
 
       <footer>
-        <p>&copy; 2024 Chinmay Kulkarni. All rights reserved.</p>
+        <p>&copy; 2024 Chinmay Kulkarni.</p>
       </footer>
     </>
   )
