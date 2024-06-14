@@ -42,6 +42,7 @@ const Home = () => {
         </div>
       </section>
       <section id="About">
+      <div id='About-Before'>ABOUT</div>
         <div className="About-img-container">
         <img src={computer} alt="" />
         </div>
@@ -81,7 +82,7 @@ const Home = () => {
       </section>
 
       <section id="projects">
-
+        <div className='projects-before'>MY WORK</div>
         <ProjectInfo
           Title="Nature Gallery"
           Description={`Free Stock Photos

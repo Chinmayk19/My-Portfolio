@@ -42,7 +42,6 @@
     padding: 2rem;
     margin: auto;
     background: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
   #Myinfo-container{
     flex-grow: 1;
@@ -134,17 +133,15 @@
     color:black;
     height: 800px;
   }
-  #About::before{
+  #About-Before{
     position: absolute;
-    content: "ABOUT";
-    bottom: 0%;
+    top: 65%;
     right: 3%;
     color:#f4d0d0;
     font-size: 170px;
     font-weight: 600;
     opacity: 0.5;
-    /* z-index: -1; */
-  
+    z-index: 1;
   }
   .About-img-container img {
     width: 320px;
@@ -182,17 +179,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* Add some space between project cards */
+    gap: 20px;
     padding: 20px;
     height: 800px;
     position: relative;
   }
-  #projects::before{
+  .projects-before{
     position: absolute;
-    content: "MY WORK";
-    top: 18%;
-    left: 1%;
-    font-size: 280px;
+    font-size: var(--space-3xl-4xl);
     font-weight: 600;
     opacity: 0.1;
     z-index: -1;
@@ -218,7 +212,6 @@
     font-size: 130px;
     font-weight: 600;
     opacity: 0.5;
-    /* z-index: -1; */
   }
   #contact h2 {
     font-size: 40px;
@@ -252,7 +245,6 @@
     width: 20px;
     height: 20px;
   }
-  
   /* Footer styles */
   footer {
     text-align: center;
@@ -260,5 +252,84 @@
     background: #333;
     color: #fff;
   }
-  
-  
+  @media screen and (max-width:1060px) {
+    #projects,#About{
+      height: 700px;
+    }
+    .projects-before{
+      position: relative;
+      font-size:50px;
+      font-weight: 600;
+      opacity: 0.1;
+      z-index: -1;
+    }
+    #About-Before{
+      font-size: 140px;
+    }
+    .About-img-container img{
+      width: 300px;
+      height: 320px;
+      margin-left: 10px;
+    }
+    .skills{
+      width: 30%;
+    padding: 12px;
+    }
+  }
+  @media screen and (max-width:850px){
+    #home{
+      flex-direction: column;
+      padding: 0%;
+      margin-bottom: 10px;
+
+    }
+    #profilephoto img{
+      width: 280px;
+      height: 300px;
+    }
+    .My-info{
+      width: 100%;
+    }
+    .My-info p{
+      font-size: 18px;
+    }
+    .My-info h1{
+      font-size: 40px;
+    }
+    .My-info p:nth-of-type(2){
+      font-size: 22px;
+    }
+    #About{
+      flex-direction: column;
+      gap: 10px;
+    }
+    #About-Before{
+      position: relative;
+      top: 0%;
+      left: 0%;
+      font-size: 30px;
+    }
+    .About-img-container img{
+      margin-left: 0%;
+      width: 280px;
+      height: 300px;
+    }
+    .About-info-container{
+      gap: 10px;
+      width: 100%;
+    }
+    .skills-container{
+      justify-content: center;
+    }
+    .skills-info{
+      text-align: center;
+    }
+    #contact::before{
+      display: none;
+    }
+  }
+  @media screen and (max-width:540px) {
+    .contact-details{
+      flex-direction: column;
+    }
+  }
