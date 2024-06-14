@@ -330,12 +330,13 @@
     }
     .skills-container{
       justify-content: center;
+      gap: 6px;
     }
     .skills-info{
       text-align: center;
     }
     .skills p{
-      font-size: 12px;
+      font-size: 13px;
     }
     #contact::before{
       display: none;
