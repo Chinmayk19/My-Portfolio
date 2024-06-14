@@ -283,6 +283,9 @@
       margin-bottom: 10px;
       height: 600px;
     }
+    #profilephoto{
+      flex-grow: 0;
+    }
     #profilephoto img{
       width: 280px;
       height: 300px;
