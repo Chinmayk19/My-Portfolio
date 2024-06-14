@@ -38,7 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 92vh;
+    height: 750px;
     padding: 2rem;
     margin: auto;
     background: #fff;
@@ -281,7 +281,7 @@
       flex-direction: column;
       padding: 0%;
       margin-bottom: 10px;
-
+      height: 500px;
     }
     #profilephoto img{
       width: 280px;
@@ -289,6 +289,9 @@
     }
     .My-info{
       width: 100%;
+    }
+    .My-info a{
+      padding: 5px;
     }
     .My-info p{
       font-size: 18px;
@@ -329,6 +332,7 @@
     }
   }
   @media screen and (max-width:540px) {
+
     .About-img-container img{
       width: 250px;
       height: 250px;
