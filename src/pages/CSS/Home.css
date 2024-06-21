@@ -36,7 +36,7 @@
   .hamburger {
     display: none;
     position: absolute;
-    top: 1rem;
+    top: 0.5rem;
     right: 1rem;
     cursor: pointer;
     font-size: 2rem;
