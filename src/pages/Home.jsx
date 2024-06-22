@@ -20,16 +20,16 @@ const Home = () => {
         <nav>
           <ul className={isOpen ? "nav-links open" : "nav-links"}>
             <li>
-              <a href="#home">Home</a>
+              <a href="#home" onClick={toggleMenu}>Home</a>
             </li>
             <li>
-              <a href="#About">About</a>
+              <a href="#About" onClick={toggleMenu}>About</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects" onClick={toggleMenu}>Projects</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={toggleMenu}>Contact</a>
             </li>
           </ul>
           <div className="hamburger" onClick={toggleMenu}>
